@@ -1,0 +1,23 @@
+mport UIKit
+
+var reto = 0...100
+
+for r in reto {
+    
+    if r % 5 == 0{
+        print("#\(r) Bingo!!")
+    }
+    
+    if r >= 30 && r <= 40{
+        print("#\(r) Viva Swift!!")
+    }
+    if r % 2 == 0{
+        print("#\(r) es par!!")
+    }
+    else
+    {
+        print("#\(r) es impar!!")
+        
+    }
+    
+}
